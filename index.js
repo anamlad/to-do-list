@@ -24,6 +24,7 @@ function funkcija() {
   druga.appendChild(tekst);
   tekst.addEventListener("click", () => funkcija2(tekst));
   button.addEventListener("click", () => funkcija3(tekst));
+  input.value = "";
 }
 
 dugmence.addEventListener("click", funkcija);
