@@ -15,6 +15,9 @@ function funkcija3(tekst) {
 }
 function funkcija() {
   const tekst = document.createElement("div");
+  if (input.value === "") {
+    return;
+  }
   const user = input.value;
   tekst.textContent = user;
   const button = document.createElement("button");
